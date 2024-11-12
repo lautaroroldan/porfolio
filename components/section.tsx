@@ -1,8 +1,8 @@
 import React from 'react'
-
-function Section({ children }: { children: React.ReactNode }) {
+import clsx from 'clsx'
+function Section({ children, className }: { children: React.ReactNode, className?: string }) {
     return (
-        <div className='flex flex-col gap-4'>
+        <div className={clsx(`flex flex-col gap-4`, className)}>
             {children}
         </div>
     )
