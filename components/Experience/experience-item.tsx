@@ -13,7 +13,7 @@ function ExperienceItem({ position, company, description, dateStart, dateEnd }: 
             <time className="mb-1 text-xs font-normal leading-none text-custom-gray opacity-80">{dateStart} - {dateEnd}</time>
             <h2 className="text-lg font-semibold text-white">{position}</h2>
             <h3 className="text-sm font-semibold text-custom-gray opacity-80 mb-3.5">{company}</h3>
-            <p className="mb-4 text-base font-normal text-custom-gray">{description}</p>
+            <p className="mb-4 text-base font-normal text-custom-gray prose-xs">{description}</p>
         </>
     )
 }

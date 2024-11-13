@@ -9,15 +9,15 @@ const experiences: ExperienceItemProps[] = [
         company: "Advenio Software",
         dateStart: "2022",
         dateEnd: "2024",
-        description: "Development of web applications using React, Next.js, Node.js, and PostgreSQL. Implementation of RESTful APIs. Integration of third-party services. Collaboration with the team to implement new features and maintain code quality, documentation, and tests.",
+        description: "Developed new screens and an accounting system with features for managing accounts, suppliers, and payments. Managed API development and maintenance using Java and the Spring Boot framework with Hibernate for data persistence, and implemented new features based on client requests.",
     },
     {
         position: "Full Stack Developer",
         company: "Freelance",
         dateStart: "2024",
         dateEnd: "Present",
-        description: "Development of web applications using React, Next.js, Node.js, and PostgreSQL. Implementation of RESTful APIs. Integration of third-party services. Collaboration with the team to implement new features and maintain code quality, documentation, and tests.",
-    }
+        description: "As a freelance developer, I had the opportunity to work on a handball project where I was the sole frontend developer. This experience allowed me to deepen my skills in React and other tools within its ecosystem, pushing me to deliver a fully functional and responsive interface, managing both the creative and technical aspects of the project independently, adapting and solving challenges as they arose. I'm always ready for new challenges and eager to continue growing, learning, and contributing to innovative projects.",
+    },
 ]
 
 function Experience() {
