@@ -6,11 +6,11 @@ import handballScore from '@/assets/images/handball-score.webp'
 const projects = [
     {
         title: 'Balanticco',
-        description: 'It’s a web application that helps you manage personal finances. You can record income and expenses, as well as visualize monthly balances through graphical representations.',
+        description: 'It’s a web application that helps you manage personal finances. You can record income and expenses, as well as visualize monthly balances through graphical representations. (Currently only mobile design, but in the future it will be responsive)',
         technologies: ['Next.js', 'Drizzle', 'SQLite', 'TailwindCSS', 'Shadcn', 'TypeScript', 'Turso'],
         date: '2024',
         backgroundImg: balanticco,
-        projectUrl: 'https://balanticco.vercel.app/'
+        projectUrl: 'https://balanticco.vercel.app/login'
     },
     {
         title: 'Handball Score',
