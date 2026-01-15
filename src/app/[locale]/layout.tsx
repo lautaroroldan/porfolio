@@ -4,6 +4,7 @@ import { hasLocale, NextIntlClientProvider as IntlProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import "@/globals.css";
 import { geistMono, geistSans } from "@/app/fonts/fonts";
+import ThemeProvider from "@/components/theme-provider";
 import { routing } from "@/i18n/routing";
 
 const baseMetadata: Metadata = {
@@ -112,10 +113,18 @@ export default async function RootLayout({
 			lang={locale}
 			className={`${geistSans.variable} ${geistMono.variable}`}
 		>
-			<body className={`${geistSans.variable} antialiased bg-[#171717]`}>
-				<IntlProvider locale={locale} messages={messages}>
-					{children}
-				</IntlProvider>
+			<body
+				className={`${geistSans.variable} antialiased bg-background text-foreground transition-colors duration-300`}
+			>
+				<ThemeProvider
+					attribute="class"
+					defaultTheme="dark"
+					enableSystem={false}
+				>
+					<IntlProvider locale={locale} messages={messages}>
+						{children}
+					</IntlProvider>
+				</ThemeProvider>
 			</body>
 		</html>
 	);

@@ -18,7 +18,7 @@ function HeaderTitle() {
 				unoptimized
 			/>
 			<div>
-				<h1 className="text-white text-2xl font-bold">{t("name")}</h1>
+				<h1 className="text-foreground text-2xl font-bold">{t("name")}</h1>
 				<p className={`text-custom-gray ${inter.className}`}>{t("title")}</p>
 			</div>
 		</div>

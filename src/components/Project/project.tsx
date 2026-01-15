@@ -63,10 +63,10 @@ function Project() {
 
 	return (
 		<Section>
-			<h2 className={`text-xl font-bold text-white ${inter.className}`}>
+			<h2 className={`text-xl font-bold text-foreground ${inter.className}`}>
 				{t("title")}
 			</h2>
-			<div className="flex flex-col gap-8">
+			<div className="flex flex-col gap-16">
 				{projects.map((project) => (
 					<ProjectItem key={project.title} {...project} />
 				))}

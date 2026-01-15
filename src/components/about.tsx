@@ -1,7 +1,6 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import React from "react";
 import Section from "./section";
 
 function About() {
@@ -12,7 +11,7 @@ function About() {
 				<p>
 					{t.rich("paragraph1", {
 						highlight: (chunks) => (
-							<span className="text-white font-bold">{chunks}</span>
+							<span className="text-foreground font-bold">{chunks}</span>
 						),
 					})}
 				</p>

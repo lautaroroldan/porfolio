@@ -28,12 +28,15 @@ function Experience() {
 
 	return (
 		<Section>
-			<h2 className={`text-xl font-bold text-white ${inter.className}`}>
+			<h2 className={`text-xl font-bold text-foreground ${inter.className}`}>
 				{t("title")}
 			</h2>
 			<ol className="relative border-s border-custom-gray">
-				{experiences.map((experience, index) => (
-					<li className="ms-4" key={index}>
+				{experiences.map((experience) => (
+					<li
+						className="ms-4"
+						key={`${experience.company}-${experience.position}`}
+					>
 						<ExperienceItem {...experience} />
 					</li>
 				))}
