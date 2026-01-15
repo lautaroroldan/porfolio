@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 import createNextIntlPlugin from "next-intl/plugin";
-import { routing } from "./src/i18n/routing.ts";
 
-const withNextIntl = createNextIntlPlugin(routing);
+const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig = {
 	images: {
