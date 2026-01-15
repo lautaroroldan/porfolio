@@ -1,0 +1,51 @@
+{
+	"about": {
+		"paragraph1": "¡Hola! <highlight>Soy Lautaro Roldan</highlight>, un desarrollador web fullstack de Argentina con más de 2 años de experiencia. Actualmente, me enfoco en el desarrollo frontend dentro del ecosistema de React y trabajo como freelance en diversos proyectos.",
+		"paragraph2": "Soy apasionado por mantenerme actualizado con las herramientas y proyectos emergentes en el mundo de la tecnología. Fuera de la programación, tengo un fuerte interés en la música y estoy aprendiendo guitarra bajo junto con otros instrumentos."
+	},
+	"experience": {
+		"title": "Experiencia",
+		"jobs": {
+			"advenio": {
+				"position": "Desarrollador Full Stack",
+				"company": "Advenio Software",
+				"dateStart": "2022",
+				"dateEnd": "2024",
+				"description": "Desarrollé nuevas pantallas y un sistema contable con características para gestionar cuentas, proveedores y pagos. Gestioné el desarrollo y mantenimiento de API utilizando Java y el framework Spring Boot con Hibernate para la persistencia de datos, e implementé nuevas funcionalidades basadas en solicitudes de clientes."
+			},
+			"freelance": {
+				"position": "Desarrollador Full Stack",
+				"company": "Freelance",
+				"dateStart": "2024",
+				"dateEnd": "Presente",
+				"description": "Como desarrollador freelance, tuve la oportunidad de trabajar en un proyecto de Handball donde fui el único desarrollador frontend. Esta experiencia me permitió profundizar mis habilidades en React y otras herramientas dentro de su ecosistema, impulsándome a entregar una interfaz completamente funcional y responsiva, gestionando tanto los aspectos creativos como técnicos del proyecto de forma independiente, adaptándome y resolviendo desafíos a medida que surgían. Siempre estoy listo para nuevos desafíos y ansioso por seguir creciendo, aprendiendo y contribuyendo a proyectos innovadores."
+			}
+		}
+	},
+	"projects": {
+		"title": "Proyectos",
+		"handballScore": {
+			"title": "Handball Score",
+			"description": "Es una aplicación web que te permite seguir un torneo de Handball creando y editando partidos, actualizando estados de juego, registrando goles, tarjetas y más. También incluye un sistema de puntos específicamente diseñado para una liga de Handball.",
+			"date": "2023 - 2026"
+		},
+		"milanesa": {
+			"title": "Milanesa",
+			"description": "Una aplicación personal de notación musical donde subo y organizo partituras de bajo mientras aprendo nuevas canciones. Construido con VexFlow para el renderizado de música y mi propia biblioteca AccidentalJS para capacidades de notación mejoradas.",
+			"date": "2026"
+		},
+		"balanticco": {
+			"title": "Balanticco",
+			"description": "Es una aplicación web que te ayuda a gestionar finanzas personales. Puedes registrar ingresos y gastos, así como visualizar balances mensuales a través de representaciones gráficas. (Actualmente solo diseño móvil, pero en el futuro será responsivo)",
+			"date": "2024"
+		}
+	},
+	"header": {
+		"name": "Lautaro Roldan",
+		"title": "Desarrollador Full Stack"
+	},
+	"metadata": {
+		"title": "Lautaro Roldan - Desarrollador Full Stack | Portfolio",
+		"description": "Desarrollador Web Full Stack de Argentina con más de 2 años de experiencia. Portfolio de Lautaro Roldan con experiencia en desarrollo frontend y backend con React, Next.js y JavaScript."
+	}
+}

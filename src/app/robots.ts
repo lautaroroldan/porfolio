@@ -14,7 +14,7 @@ export default function robots(): MetadataRoute.Robots {
                 crawlDelay: 2,
             }
         ],
-        sitemap: `${process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'}/sitemap.xml`,
-        host: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
+        sitemap: `${process.env.NEXT_PUBLIC_SITE_URL}/sitemap.xml`,
+        host: process.env.NEXT_PUBLIC_SITE_URL,
     }
 }
